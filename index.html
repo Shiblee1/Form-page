@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+     <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+     </nav>
+    </section>
+    <section class="container">
+        <div class="full-form">
+            <h3>Book Ocean Time</h3>
+            <form action="/action_page.php">
+                <label for="ffrom">Flying From</label><br>
+                <input type="text" placeholder="Dhaka,Bangladesh"><br>
+                <label for="fto">Flying To</label><br>
+                <input type="text" placeholder="Tokio,Japan"><br><br>
+                <label>Departure</label>
+                <label>Return</label><br>
+                <input type="date">
+                <input type="date"><br>
+                <label for="fclass">First Class (150$)</label><br>
+                <input type="text"><br>
+                <label for="economy">Economy (100$)</label><br>
+                <input type="text">
+              </form>
+              <p><b>Subtotal <span>$500</span></b></p>
+              <p><b>Charge with 10% vat <span>$50</span></b></p>
+              <hr>
+              <p><b>Total <span>$550</span></b></p>
+              <input type="submit" value="Book Now">
+
+        </div>
+        
+    </section>
+</body>
+</html>
